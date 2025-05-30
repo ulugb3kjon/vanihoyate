@@ -247,7 +247,7 @@ body {
   text-align: center;
 }
 .slider {
-  width: 750px;
+  width: 350px;
   height: 100px;
   overflow: hidden;
   position: relative;
@@ -435,6 +435,9 @@ body {
   .anaqa {
     font-size: 25px;
   }
+  .slider{
+    width: 750px;
+  }
   .samuray {
     width: 60px;
     height: 60px;
@@ -454,7 +457,8 @@ body {
 }
 .footer{
   background-color: #000000;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 body{
   overflow-x: hidden;
