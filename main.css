@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap");
+.samuray {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 5px;
+  transform: translateX(300px);
+  opacity: 0;
+  animation: slideFromLeft 1.2s ease-out forwards;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.966);
+  font-family: "Ancizar Serif", serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1460px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding-top: 50px;
+}
+.logo_blok {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.ulugbek {
+  font-size: 15px;
+  color: #f0f0f0;
+  line-height: 1;
+  text-align: start;
+  opacity: 0;
+  animation: slideDown 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+.anaqa {
+  font-size: 17px;
+  color: #f3efef;
+  white-space: nowrap;
+  text-align: start;
+  opacity: 0;
+  animation: slideUp 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes slideUp {
+  to {
+    transform: translateY(0);
+    opacity: 2;
+  }
+}
+.instaa {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid none;
+}
+.tgggg {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid none;
+}
+.bot {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid none;
+}
+.header_blok {
+  max-width: 800px;
+  border: 2px solid rgb(48, 47, 47);
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.753);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link_blok {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+}
+
+.tel {
+  font-size: 8px;
+  color: #000000;
+  border: 2px solid rgb(48, 47, 47);
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(101, 112, 161, 0.753);
+  width: 55px;
+  height: 55px;
+  background-color: #fff;
+  text-align: center;
+  transform: translateX(100px);
+  opacity: 0;
+  animation: slideFromLeft 0.8s ease-out forwards;
+}
+.linkkkkkk {
+  border: 2px solid rgb(48, 47, 47);
+  padding: 2px 4px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(101, 112, 161, 0.753);
+  background-color: #fff;
+  transform: translateY(-100px);
+  opacity: 0;
+  animation: slideFromLeft 0.8s ease-out forwards;
+}
+.linkkkkkk2 {
+  border: 2px solid rgb(48, 47, 47);
+  padding: 2px 4px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(101, 112, 161, 0.753);
+  background-color: #fff;
+  transform: translateY(100px);
+  opacity: 0;
+  animation: slideFromLeft 0.8s ease-out forwards;
+}
+@keyframes slideFromLeft {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.motivation {
+  font-size: 25px;
+  color: #faf8f8;
+  line-height: 1.5;
+  text-align: start;
+  font-weight: 700;
+  margin-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  opacity: 0;
+  animation: slideDown 2s ease-out forwards;
+  animation-delay: 0.6s;
+}
+
+.motivation_2 {
+  font-size: 20px;
+  color: #faf8f8;
+  text-align: start;
+  font-weight: 700;
+  margin-top: 30px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: 0.7;
+  text-align: center;
+  opacity: 0;
+  animation: slideDown 2s ease-out forwards;
+  animation-delay: 0.7s;
+}
+.ikkinchirasm {
+  max-width: 700px;
+  height: 300px;
+  border: 2px solid rgb(48, 47, 47);
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.753);
+  padding: 20px;
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.logo_blok {
+  overflow: hidden;
+}
+
+.manaqa {
+  text-align: center;
+  position: relative; /* canvas absolute pozitsiya uchun */
+}
+
+#animCanvas {
+  z-index: 10;
+}
+
+.ozimmman {
+  max-width: 300px;
+  padding-top: 20px;
+}
+
+.manaqa {
+  text-align: center;
+}
+.slider {
+  width: 750px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-track {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.slider-track img {
+  width: 250px;
+  height: 100px;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-right: 80px;
+  margin-left: 30px;
+  border-radius: 20px;
+  opacity: 0.7;
+}
+.hayot {
+  font-size: 25px;
+  color: #faf8f8;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  opacity: 0.7;
+}
+.nigga {
+  max-width: 400px;
+  margin-left: -50px;
+  z-index: -11;
+  position: relative;
+}
+.logo_blok2 {
+  overflow: hidden;
+  padding-left: 0;
+  margin-left: 0;
+}
+.motherfucker {
+  text-align: center;
+}
+.linkkkkkk:hover,
+.linkkkkkk2:hover,
+.tel:hover {
+  transform: scale(1.15);
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  border-color: #3a3a3a;
+  background-color: #6f66ee;
+  color: #000;
+}
+.sabachka {
+  font-size: 40px;
+  color: #faf8f8;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  animation: fadeGrow 5s ease-in-out infinite alternate;
+}
+.ikkinchirasm {
+  width: 350px;
+  height: auto;
+  background: black;
+  overflow: hidden;
+}
+
+.manaqa {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#animCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+#animCanvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.nigga {
+  transform: translateY(100px);
+  opacity: 0;
+  animation: slideUp 2s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+.ozimmman {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  transform: translateY(100px);
+  opacity: 0;
+  animation: slideUp 2s ease-out forwards;
+  animation-delay: 0.5;
+}
+@keyframes slideUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideDown {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.dasturchi {
+  color: #f31515;
+}
+
+.header_blok {
+  background-color: rgba(0, 0, 0, 0.685);
+}
+.header_blok5 {
+  max-width: 800px;
+  border: 2px solid rgb(48, 47, 47);
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.753);
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ikkinchirasm {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 900px) {
+  .deskzb {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1400px;
+  }
+  .ozimmman {
+    width: 300px;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .ikkinchirasm {
+    height: 349px;
+    margin-top: 55px;
+  }
+  .deskzb2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+  }
+  .header_blok {
+    margin-top: 50px;
+  }
+  .logo_blok2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nigga {
+    width: 300px;
+  }
+  .ulugbek {
+    font-size: 25px;
+  }
+  .anaqa {
+    font-size: 25px;
+  }
+  .samuray {
+    width: 60px;
+    height: 60px;
+  }
+  .motivation {
+    text-align: start;
+  }
+  .motivation_2 {
+    text-align: start;
+  }
+  .logo_blok {
+    margin-left: 0;
+  }
+  .hayot {
+    font-size: 30px;
+  }
+}
+.footer{
+  background-color: #000000;
+  padding: 10px;
+}
