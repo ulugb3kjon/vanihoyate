@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     reset() {
       this.x = Math.random() * canvas.width;
       this.y = Math.random() * canvas.height;
-      this.size = Math.random() * 1 + 0.1;
-      this.speedY = Math.random() * 0.2 + 0.1;
+      this.size = Math.random() * 1 + 0.5;
+      this.speedY = Math.random() * 1 + 0.5;
     }
 
     update() {
@@ -34,14 +34,14 @@ document.addEventListener('DOMContentLoaded', () => {
       ctx.beginPath();
       ctx.fillStyle = 'cyan';
       ctx.shadowColor = 'cyan';
-      ctx.shadowBlur = 5;
-      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.shadowBlur = 10;
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 5);
       ctx.fill();
     }
   }
 
   const particles = [];
-  for (let i = 0; i < 150; i++) {
+  for (let i = 0; i < 50; i++) {
     particles.push(new Particle());
   }
 

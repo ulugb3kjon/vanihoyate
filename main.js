@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function animate() {
-    position -= 0.3;  
+    position -= 1;  
     if(position <= -step * imgCount) {
       position = 0; 
     }

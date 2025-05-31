@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
 .samuray {
   width: 50px;
   height: 50px;
@@ -275,20 +275,28 @@ body {
 }
 .hayot {
   font-size: 25px;
-  color: #faf8f8;
+   color: #fff;
   line-height: 1.5;
   font-weight: 700;
   margin-top: 10px;
   text-align: center;
   margin-bottom: 20px;
   margin-top: 0px;
-  opacity: 0.7;
+  /* opacity: 0.7; */
+}
+.Frontend{
+   color: #f31515;
 }
 .nigga {
   max-width: 400px;
-  margin-left: -50px;
-  z-index: -11;
+  /* margin-left: -50px; */
+  /* z-index: -11; */
   position: relative;
+  margin-right: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: -40px;
+  margin-left: -30px;
 }
 .logo_blok2 {
   overflow: hidden;
@@ -308,16 +316,20 @@ body {
   background-color: #6f66ee;
   color: #000;
 }
+
+.kot{
+  color: #f31515;
+}
 .sabachka {
   font-size: 40px;
-  color: #faf8f8;
   line-height: 1.5;
   font-weight: 700;
   margin-top: 100px;
   margin-bottom: 100px;
   text-align: center;
-  animation: fadeGrow 5s ease-in-out infinite alternate;
+  color: #fff;
 }
+
 .ikkinchirasm {
   width: 350px;
   height: auto;
@@ -378,6 +390,9 @@ body {
 .dasturchi {
   color: #f31515;
 }
+body{
+   font-family: "Merriweather", serif;
+}
 
 .header_blok {
   background-color: rgba(0, 0, 0, 0.685);
@@ -435,12 +450,12 @@ body {
   .anaqa {
     font-size: 25px;
   }
-  .slider{
+  .slider {
     width: 750px;
   }
   .samuray {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
   .motivation {
     text-align: start;
@@ -455,11 +470,11 @@ body {
     font-size: 30px;
   }
 }
-.footer{
-  background-color: #000000;
+.footer {
+  background-color: #292828;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-body{
+body {
   overflow-x: hidden;
 }
